@@ -18,7 +18,7 @@ module.exports = {
       data: dirname + 'src/pug/data.json'
     },
     postcss: {
-      allFiles: dirname + 'src/postcss/**/*.{css,pcss,scss}',
+      allFiles: [dirname + 'src/postcss/components/*.{css,pcss,scss}', dirname + 'src/postcss/pages/*.{css,pcss,scss}', dirname + 'src/postcss/*.{css,pcss,scss}'],
       files: {
         libs: dirname + 'src/postcss/libs.{css,pcss,scss}'
       },

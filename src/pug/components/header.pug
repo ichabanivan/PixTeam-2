@@ -1,0 +1,65 @@
+header.header
+  .header-top
+    .header_container
+      .header-top-burger
+        a(href='#').header-top-burger_btn#js-open
+          svg.menu-button
+            use(xlink:href='./img/symbols.svg#menu-button')
+      .header-top-logo
+        a(href="#").header-top-logo_link
+          img(src="img/Portland.png" alt="logo").header-top-logo_img
+      .header-top-menu
+        ul.header-top-menu_list
+          li.header-top-menu_item
+            a(href="#").header-top-menu_link Home
+          li.header-top-menu_item
+            a(href="#").header-top-menu_link Devices
+          li.header-top-menu_item
+            a(href="#").header-top-menu_link Delivery & Payment
+          li.header-top-menu_item
+            a(href="#").header-top-menu_link Guarantee
+          li.header-top-menu_item
+            a(href="#").header-top-menu_link About us
+      .header-top-cart
+        .header-top-cart_svg
+          svg.cart
+            use(xlink:href='./img/symbols.svg#cart')
+        span.header-top-cart_text Cart
+        .header-top-cart_badge 0
+      .header-top-entrance
+        button.header-top-entrance_btn Sign in
+  .header-bottom
+    .header_container.header_container-bottom
+      .header-bottom-breadcrumbs
+        ul.header-bottom-breadcrumbs_list
+          li.header-bottom-breadcrumbs_item
+            a(href="#").header-bottom-breadcrumbs_link Top Sales
+          li.header-bottom-breadcrumbs_item
+            a(href="#").header-bottom-breadcrumbs_link Brand Focus
+          li.header-bottom-breadcrumbs_item.header-bottom-breadcrumbs_item-active
+            a(href="#").header-bottom-breadcrumbs_link Hi-tech
+          li.header-bottom-breadcrumbs_item
+            a(href="#").header-bottom-breadcrumbs_link Best Sellers
+          li.header-bottom-breadcrumbs_item
+            a(href="#").header-bottom-breadcrumbs_link Projects
+      .header-bottom-support
+        a(href="#").header-bottom-support_link Support
+      .header-bottom-search
+        svg.search.header-bottom-search_icon
+          use(xlink:href='./img/symbols.svg#search')
+        input(placeholder="I’m looking for ...").header-bottom-search_input
+
+.side-nav
+  a.close#js-close  Close
+  ul.side-nav_list
+    li.side-nav_item
+      a(href='#!').side-nav_link Home
+    li.side-nav_item
+      a(href='#!').side-nav_link Devices
+    li.side-nav_item
+      a(href='#!').side-nav_link Delivery & Payment
+    li.side-nav_item
+      a(href='#!').side-nav_link Guarantee
+    li.side-nav_item
+      a(href='#!').side-nav_link About us
+

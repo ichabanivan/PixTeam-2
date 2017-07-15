@@ -1,0 +1,55 @@
+.footer {
+  background-color: #222328;
+
+  &-top {
+    display: flex;
+    flex-direction: row;
+    min-height: 150px;
+    border-bottom: 1px solid #2d2e33;
+    width: 100%;
+    justify-content: space-around;
+
+    @media screen and (width <= 600px) {
+      flex-direction: column;
+    }
+  }
+
+  &-bottom {
+    min-height: 150px;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  max-width: 1170px;
+  display: flex;
+  margin: auto;
+}
+
+.social {
+  display: flex;
+  margin: auto;
+
+  @media screen and (width <= 480px){
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.twitter {
+  fill: #fff;
+  size: 18px;
+  margin-right: 28px;
+}
+
+.facebook {
+  fill: #fff;
+  size: 18px;
+  margin-right: 28px;
+}
+
+.google-plus {
+  fill: #fff;
+  size: 18px;
+}
