@@ -11,15 +11,17 @@ block color
   +color('#3A4446')
 
 block styles
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Montserrat:400,900" rel="stylesheet">
   //link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css")
   link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css")
   link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css")
+  link(rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.formstyler/1.7.8/jquery.formstyler.css")
   link(rel="stylesheet" href="css/main.css")
 
 block js
   script(defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
   script(defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js")
+  script(defer src="https://cdn.jsdelivr.net/jquery.formstyler/1.7.8/jquery.formstyler.min.js")
   //script(defer src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js")
   //script(defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js")
   //script(defer src="js/commons.js")
@@ -29,5 +31,8 @@ block content
   include ../components/header
   include ../components/slider
   include ../components/choice
+  include ../components/main
+  include ../components/pagination
+  include ../components/best
   include ../components/about
   include ../components/footer

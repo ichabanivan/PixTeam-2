@@ -68,7 +68,9 @@
         padding: 0;
         margin: auto;
       }
-
+      @media screen and (width >= 600px){
+        margin-left: 0;
+      }
       @media screen and (width <= 480px) {
         order: -1;
         padding: 20px;
@@ -146,7 +148,7 @@
           font-size: 12px;
 
           @media screen and (width <= 480px) {
-            font-size: 11px;
+            font-size: 10px;
           }
         }
       }
@@ -369,6 +371,7 @@
   height: 100%;
   position: fixed;
   top: 0;
+  z-index: 9999;
 
   &_list {
     margin-top: 100px;

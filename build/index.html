@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portland UI Free Sample</title>
+    <meta name="Portland UI Free Sample" content="Portland UI Free Sample">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Social tags Start-->
+    <!-- Recommended size is 1200x630-->
+    <meta property="og:image" content="img/og.png">
+    <meta property="og:title" content="Gulpimize">
+    <meta property="og:description" content="Basic template for quickly getting started">
+    <!-- Social tags End-->
+    <!-- Template Basic Images Start-->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon/icon32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="img/favicon/icon96x96.png" type="image/png" sizes="96x96">
+    <link rel="apple-touch-icon" href="img/favicon/icon57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/icon72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/icon144x144.png">
+    <!-- Template Basic Images End-->
+    <!-- Loading CSS Start--><link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Montserrat:400,900" rel="stylesheet">
+    <!--link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css")-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.formstyler/1.7.8/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Loading CSS End-->
+    <!-- Custom Browsers Color Start-->
+    <!-- Chrome, Firefox OS and Opera-->
+    <meta name="theme-color" content="#3A4446"/>
+    <!-- Windows Phone-->
+    <meta name="msapplication-navbutton-color" content="#3A4446"/>
+    <!-- iOS Safari-->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3A4446"/>
+    <!-- Custom Browsers Color End-->
+  </head>
+  <body class="body">
+    <!-- Custom HTML Start-->
+    <header class="header">
+      <div class="header-top">
+        <div class="header_container">
+          <div class="header-top-burger"><a class="header-top-burger_btn" href="#" id="js-open">
+              <svg class="menu-button">
+                <use xlink:href="./img/symbols.svg#menu-button"></use>
+              </svg></a></div>
+          <div class="header-top-logo"><a class="header-top-logo_link" href="#"><img class="header-top-logo_img" src="img/Portland.png" alt="logo"></a></div>
+          <div class="header-top-menu">
+            <ul class="header-top-menu_list">
+              <li class="header-top-menu_item"><a class="header-top-menu_link" href="#">Home</a></li>
+              <li class="header-top-menu_item"><a class="header-top-menu_link" href="#">Devices</a></li>
+              <li class="header-top-menu_item"><a class="header-top-menu_link" href="#">Delivery & Payment</a></li>
+              <li class="header-top-menu_item"><a class="header-top-menu_link" href="#">Guarantee</a></li>
+              <li class="header-top-menu_item"><a class="header-top-menu_link" href="#">About us</a></li>
+            </ul>
+          </div>
+          <div class="header-top-cart">
+            <div class="header-top-cart_svg">
+              <svg class="cart">
+                <use xlink:href="./img/symbols.svg#cart"></use>
+              </svg>
+            </div><span class="header-top-cart_text">Cart</span>
+            <div class="header-top-cart_badge">0</div>
+          </div>
+          <div class="header-top-entrance">
+            <button class="header-top-entrance_btn">Sign in</button>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="header_container header_container-bottom">
+          <div class="header-bottom-breadcrumbs">
+            <ul class="header-bottom-breadcrumbs_list">
+              <li class="header-bottom-breadcrumbs_item"><a class="header-bottom-breadcrumbs_link" href="#">Top Sales</a></li>
+              <li class="header-bottom-breadcrumbs_item"><a class="header-bottom-breadcrumbs_link" href="#">Brand Focus</a></li>
+              <li class="header-bottom-breadcrumbs_item header-bottom-breadcrumbs_item-active"><a class="header-bottom-breadcrumbs_link" href="#">Hi-tech</a></li>
+              <li class="header-bottom-breadcrumbs_item"><a class="header-bottom-breadcrumbs_link" href="#">Best Sellers</a></li>
+              <li class="header-bottom-breadcrumbs_item"><a class="header-bottom-breadcrumbs_link" href="#">Projects</a></li>
+            </ul>
+          </div>
+          <div class="header-bottom-support"><a class="header-bottom-support_link" href="#">Support</a></div>
+          <div class="header-bottom-search">
+            <svg class="search header-bottom-search_icon">
+              <use xlink:href="./img/symbols.svg#search"></use>
+            </svg>
+            <input class="header-bottom-search_input" placeholder="I’m looking for ...">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="side-nav"><a class="close" id="js-close"> Close</a>
+      <ul class="side-nav_list">
+        <li class="side-nav_item"><a class="side-nav_link" href="#!">Home</a></li>
+        <li class="side-nav_item"><a class="side-nav_link" href="#!">Devices</a></li>
+        <li class="side-nav_item"><a class="side-nav_link" href="#!">Delivery & Payment</a></li>
+        <li class="side-nav_item"><a class="side-nav_link" href="#!">Guarantee</a></li>
+        <li class="side-nav_item"><a class="side-nav_link" href="#!">About us</a></li>
+      </ul>
+    </div>
+    <div class="slider" id="js-slider">
+      <div class="slider-item slider-item--first">
+        <div class="slider-item-container">
+          <div class="slider-item-left">
+            <h1 class="slider-item-left_h1">iPhone 6 32Gb <br> Black</h1>
+            <p class="slider-item-left_p">At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+            <button class="slider-item-left_btn">Buy now</button>
+          </div>
+          <div class="slider-item-right"><img class="slider-item-right_img" src="img/iphone_6.png"></div>
+        </div>
+      </div>
+      <div class="slider-item slider-item--first">
+        <div class="slider-item-container">
+          <div class="slider-item-left">
+            <h1 class="slider-item-left_h1">iPhone 6 32Gb <br> Black</h1>
+            <p class="slider-item-left_p">At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+            <button class="slider-item-left_btn">Buy now</button>
+          </div>
+          <div class="slider-item-right"><img class="slider-item-right_img" src="img/iphone_6.png"></div>
+        </div>
+      </div>
+      <div class="slider-item slider-item--first">
+        <div class="slider-item-container">
+          <div class="slider-item-left">
+            <h1 class="slider-item-left_h1">iPhone 6 32Gb <br> Black</h1>
+            <p class="slider-item-left_p">At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+            <button class="slider-item-left_btn">Buy now</button>
+          </div>
+          <div class="slider-item-right"><img class="slider-item-right_img" src="img/iphone_6.png"></div>
+        </div>
+      </div>
+      <div class="slider-item slider-item--first">
+        <div class="slider-item-container">
+          <div class="slider-item-left">
+            <h1 class="slider-item-left_h1">iPhone 6 32Gb <br> Black</h1>
+            <p class="slider-item-left_p">At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+            <button class="slider-item-left_btn">Buy now</button>
+          </div>
+          <div class="slider-item-right"><img class="slider-item-right_img" src="img/iphone_6.png"></div>
+        </div>
+      </div>
+    </div>
+    <div class="choice">
+      <div class="choice_left">
+        <div class="choice_sort choice_sort--pl20">Sort By</div>
+        <select class="choice_select">
+          <option class="choice_option" value="0">Choose your option</option>
+          <option class="choice_option" value="1" selected>Best match</option>
+          <option class="choice_option" value="2">Option 2</option>
+          <option class="choice_option" value="3">Option 3</option>
+        </select>
+      </div>
+      <div class="choice_center">
+        <div class="choice-first">
+          <div class="choice_sort choice_sort--pl30">Keywords</div>
+          <input class="choice_keywords" placeholder="tablet">
+        </div>
+        <div class="choice-second">
+          <div class="choice_sort choice_sort--pl30">Price</div>
+          <input class="choice_keywords choice_keywords--price" type="number" placeholder="1"><span class="choice_offset">-</span>
+          <input class="choice_keywords choice_keywords--price" type="number" placeholder="10">
+        </div>
+        <div class="choice-third">
+          <input class="choice_check" type="checkbox" id="js-checkbox"><span class="choice_text">Free Shipping</span>
+        </div>
+      </div>
+      <div class="choice_right"><span class="choice_sort choice_sort--pl25">Ship to:</span>
+        <select class="choice_select choice_select--right">
+          <option class="choice_option" value="0">Choose your option
+            <option class="choice_option" value="1" selected>USA</option>
+            <option class="choice_option" value="2">Option 2</option>
+            <option class="choice_option" value="3">Option 3</option>
+          </option>
+        </select>
+      </div>
+    </div>
+    <main class="main">
+      <div class="main-container">
+        <aside class="aside">
+          <dl class="accordion">
+            <dt><a href="">Top Sales
+                <div class="arrow">
+                  <svg class="svg">
+                    <use xlink:href="./img/symbols.svg#right-arrow"></use>
+                  </svg>
+                </div></a></dt>
+            <dd>
+              <ul>
+                <li><a href="#">Cell phones</a></li>
+                <li><a href="#">Cameras</a></li>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">TV, Audio</a></li>
+                <li><a href="#">Video games</a></li>
+              </ul>
+            </dd>
+            <dt><a href="">Brand Focus
+                <div class="arrow">
+                  <svg class="svg">
+                    <use xlink:href="./img/symbols.svg#right-arrow"></use>
+                  </svg>
+                </div></a></dt>
+            <dd>
+              <ul>
+                <li><a href="#">Cell phones</a></li>
+                <li><a href="#">Cameras</a></li>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">TV, Audio</a></li>
+                <li><a href="#">Video games</a></li>
+              </ul>
+            </dd>
+            <dt><a href="">Hi-Tech
+                <div class="arrow">
+                  <svg class="svg">
+                    <use xlink:href="./img/symbols.svg#right-arrow"></use>
+                  </svg>
+                </div></a></dt>
+            <dd>
+              <ul>
+                <li><a href="#">Cell phones</a></li>
+                <li><a href="#">Cameras</a></li>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">TV, Audio</a></li>
+                <li><a href="#">Video games</a></li>
+              </ul>
+            </dd>
+            <dt><a href="">Home
+                <div class="arrow">
+                  <svg class="svg">
+                    <use xlink:href="./img/symbols.svg#right-arrow"></use>
+                  </svg>
+                </div></a></dt>
+            <dd>
+              <ul>
+                <li><a href="#">Cell phones</a></li>
+                <li><a href="#">Cameras</a></li>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">TV, Audio</a></li>
+                <li><a href="#">Video games</a></li>
+              </ul>
+            </dd>
+            <dt><a href="">Sale
+                <div class="arrow">
+                  <svg class="svg">
+                    <use xlink:href="./img/symbols.svg#right-arrow"></use>
+                  </svg>
+                </div></a></dt>
+            <dd>
+              <ul>
+                <li><a href="#">Cell phones</a></li>
+                <li><a href="#">Cameras</a></li>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">TV, Audio</a></li>
+                <li><a href="#">Video games</a></li>
+              </ul>
+            </dd>
+          </dl>
+          <div class="available">
+            <h2 class="available_h2">Available</h2>
+            <div class="buttons">
+              <div class="buttons_row">
+                <input class="buttons_radio" type="radio" id="js-r-1"><span class="buttons_text">In storage</span><span class="buttons_number">45</span>
+              </div>
+              <div class="buttons_row">
+                <input class="buttons_radio" type="radio" id="js-r-2"><span class="buttons_text">In Online-Shop</span><span class="buttons_number">12</span>
+              </div>
+            </div>
+            <div class="brands">
+              <div class="heading">
+                <h2 class="brands_h2">Brands</h2><a class="brands_link" href="">All</a>
+              </div>
+              <div class="buttons">
+                <div class="buttons_row">
+                  <input class="buttons_checkbox" type="checkbox" id="js-c-1" checked><span class="buttons_text">Apple</span><span class="buttons_number">12</span>
+                </div>
+                <div class="buttons_row">
+                  <input class="buttons_checkbox" type="checkbox" id="js-c-2"><span class="buttons_text">JBL</span><span class="buttons_number">14</span>
+                </div>
+                <div class="buttons_row">
+                  <input class="buttons_checkbox" type="checkbox" id="js-c-3"><span class="buttons_text">Bose</span><span class="buttons_number">3</span>
+                </div>
+                <div class="buttons_row">
+                  <input class="buttons_checkbox" type="checkbox" id="js-c-4"><span class="buttons_text">Nest</span><span class="buttons_number">5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="condition">
+            <div class="heading">
+              <h2 class="brands_h2">Brands</h2><a class="brands_link" href="">All</a>
+            </div>
+            <div class="buttons">
+              <div class="buttons_row">
+                <input class="buttons_checkbox" type="checkbox" id="js-c-5" checked><span class="buttons_text">New</span>
+              </div>
+              <div class="buttons_row">
+                <input class="buttons_checkbox" type="checkbox" id="js-c-6"><span class="buttons_text">Manufacturer Refurbished</span>
+              </div>
+              <div class="buttons_row">
+                <input class="buttons_checkbox" type="checkbox" id="js-c-7"><span class="buttons_text">Seller Refurbished</span>
+              </div>
+              <div class="buttons_row">
+                <input class="buttons_checkbox" type="checkbox" id="js-c-8" checked><span class="buttons_text">Used</span>
+              </div>
+              <div class="buttons_row">
+                <input class="buttons_checkbox" type="checkbox" id="js-c-9"><span class="buttons_text">For Parts or not Working</span>
+              </div>
+            </div>
+          </div>
+          <div class="delivery">
+            <div class="heading">
+              <h2 class="brands_h2">Delivery Options</h2>
+            </div>
+            <div class="buttons buttons--mb">
+              <div class="buttons_row">
+                <div class="left">
+                  <input class="buttons_radio" type="radio" id="js-r-3"><span class="buttons_text buttons_text--2">free</span>
+                </div>
+                <div class="right">
+                  <input class="buttons_radio" type="radio" id="js-r-4"><span class="buttons_text buttons_text--2">$4.99</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <section class="section">
+          <div class="product-item"><img class="product-item_img" src="img/apple_tv.png">
+            <h3 class="product-item_name">Apple TV 32GB</h3>
+            <p class="product-item_color">Black</p><span class="product-item_price">$49.99</span>
+          </div>
+          <div class="product-item"><img class="product-item_img" src="img/watch.png">
+            <h3 class="product-item_name">Pebble Time</h3>
+            <p class="product-item_color">Red</p><span class="product-item_price">$29.99</span>
+          </div>
+          <div class="product-item"><img class="product-item_img" src="img/zen.png">
+            <h3 class="product-item_name">Zendure 4-Port USB</h3>
+            <p class="product-item_color">White</p><span class="product-item_price">$49.99</span>
+          </div>
+          <div class="product-item"><img class="product-item_img" src="img/analizer.png">
+            <h3 class="product-item_name">Withings Smart Body Analyzer ws-50</h3>
+            <p class="product-item_color">Black</p><span class="product-item_price">$39.99</span>
+          </div>
+          <div class="product-item product-item--2"><img class="product-item_img product-item_img--2" src="img/jbl.png">
+            <div class="product-item-content">
+              <div class="content-left">
+                <h3 class="product-item_name">JBL Charge 2+</h3>
+                <p class="product-item_color product-item_color--2">Black</p>
+              </div>
+              <div class="content-right"><a class="content-right_memory" href="#">16GB</a><a class="content-right_buy" href="#">Buy now</a></div>
+            </div>
+          </div>
+          <div class="product-item"><img class="product-item_img" src="img/watch.png">
+            <h3 class="product-item_name">Pebble Time</h3>
+            <p class="product-item_color">Red</p><span class="product-item_price">$29.99</span>
+          </div>
+          <div class="product-item"><img class="product-item_img" src="img/zen.png">
+            <h3 class="product-item_name">Zendure 4-Port USB</h3>
+            <p class="product-item_color">White</p><span class="product-item_price">$49.99</span>
+          </div>
+          <div class="product-item"><img class="product-item_img" src="img/analizer.png">
+            <h3 class="product-item_name">Withings Smart Body Analyzer ws-50</h3>
+            <p class="product-item_color">Black</p><span class="product-item_price">$39.99</span>
+          </div>
+          <div class="product-item"><img class="product-item_img" src="img/watch.png">
+            <h3 class="product-item_name">Pebble Time</h3>
+            <p class="product-item_color">Red</p><span class="product-item_price">$29.99</span>
+          </div>
+          <div class="product-item"><img class="product-item_img" src="img/zen.png">
+            <h3 class="product-item_name">Zendure 4-Port USB</h3>
+            <p class="product-item_color">White</p><span class="product-item_price">$49.99</span>
+          </div>
+          <div class="product-item product-item--full"><img class="product-item_img product-item_img--full" src="img/full.png">
+            <h3 class="product-item_name product-item_name--full">Nest Learning Thermostat, 3rd Generation</h3><span class="product-item_price product-item_price--full">$39.99</span>
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="pagination"><a class="pagination_prev" href="#">
+        <svg class="left-chevron">
+          <use xlink:href="./img/symbols.svg#left-chevron"></use>
+        </svg></a>
+      <div class="pagination_numb">
+        <ul class="pagination_list">
+          <li class="pagination_item"><a class="pagination_link" href="#">1</a></li>
+          <li class="pagination_item"><a class="pagination_link" href="#">2</a></li>
+          <li class="pagination_item"><a class="pagination_link" href="#">3</a></li>
+          <li class="pagination_item pagination_item--active"><a class="pagination_link" href="#">4</a></li>
+          <li class="pagination_item"><a class="pagination_link" href="#">5</a></li>
+          <li class="pagination_item"><a class="pagination_link" href="#">6</a></li>
+          <li class="pagination_item"><a class="pagination_link" href="#">7</a></li>
+          <li class="pagination_item"><a class="pagination_link" href="#">8</a></li>
+        </ul>
+      </div><a class="pagination_next" href="#">
+        <svg class="right-chevron">
+          <use xlink:href="./img/symbols.svg#right-chevron"></use>
+        </svg></a>
+    </div>
+    <div class="best">
+      <h2 class="best_h4">Best Sellers</h2>
+      <div class="products">
+        <div class="product-item product-item--best"><img class="product-item_img" src="img/apple_tv.png">
+          <h3 class="product-item_name">Apple TV 32GB</h3>
+          <p class="product-item_color">Black</p><span class="product-item_price product-item_price--sell" data-price="£29.99">£39.99</span>
+        </div>
+        <div class="product-item product-item--best"><img class="product-item_img" src="img/apple_tv.png">
+          <h3 class="product-item_name">Apple TV 32GB</h3>
+          <p class="product-item_color">Black</p><span class="product-item_price product-item_price--sell" data-price="£29.99">£39.99</span>
+        </div>
+        <div class="product-item product-item--best"><img class="product-item_img" src="img/apple_tv.png">
+          <h3 class="product-item_name">Apple TV 32GB</h3>
+          <p class="product-item_color">Black</p><span class="product-item_price product-item_price--sell" data-price="£29.99">£39.99</span>
+        </div>
+        <div class="product-item product-item--best"><img class="product-item_img" src="img/apple_tv.png">
+          <h3 class="product-item_name">Apple TV 32GB</h3>
+          <p class="product-item_color">Black</p><span class="product-item_price product-item_price--sell" data-price="£29.99">£39.99</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-container">
+      <div class="about">
+        <div class="about_head">
+          <h4 class="about_h4">What Our Customers Have to Say</h4>
+          <p class="about_p">Couple of Words About This Stories Section</p>
+        </div>
+        <div class="comments">
+          <div class="comments_item">
+            <div class="comments_author"><img class="comments_photo" src="img/Photo.png">
+              <div class="comments_about-author">
+                <div class="comments_name">Celia Fields</div>
+                <div class="comments_position">UX Expert</div>
+              </div>
+            </div>
+            <p class="comments_descr">This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</p>
+          </div>
+          <div class="comments_item">
+            <div class="comments_author"><img class="comments_photo" src="img/Photo.png">
+              <div class="comments_about-author">
+                <div class="comments_name">Celia Fields</div>
+                <div class="comments_position">UX Expert</div>
+              </div>
+            </div>
+            <p class="comments_descr">This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</p>
+          </div>
+          <div class="comments_item">
+            <div class="comments_author"><img class="comments_photo" src="img/Photo.png">
+              <div class="comments_about-author">
+                <div class="comments_name">Celia Fields</div>
+                <div class="comments_position">UX Expert</div>
+              </div>
+            </div>
+            <p class="comments_descr">This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="header-top-logo header-top-logo--footer"><a class="header-top-logo_link" href="#"><img class="header-top-logo_img" src="img/Portland-white.png" alt="logo"></a></div>
+          <div class="header-top-menu header-top-menu--white">
+            <ul class="header-top-menu_list">
+              <li class="header-top-menu_item header-top-menu_item--white"><a class="header-top-menu_link header-top-menu_link--white" href="#">Home</a></li>
+              <li class="header-top-menu_item header-top-menu_item--white"><a class="header-top-menu_link header-top-menu_link--white" href="#">Shop</a></li>
+              <li class="header-top-menu_item header-top-menu_item--white"><a class="header-top-menu_link header-top-menu_link--white" href="#">Team</a></li>
+              <li class="header-top-menu_item header-top-menu_item--white"><a class="header-top-menu_link header-top-menu_link--white" href="#">About us</a></li>
+              <li class="header-top-menu_item header-top-menu_item--white"><a class="header-top-menu_link header-top-menu_link--white" href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="social"><a href="">
+              <svg class="twitter">
+                <use xlink:href="./img/symbols.svg#twitter"></use>
+              </svg></a><a href="">
+              <svg class="facebook">
+                <use xlink:href="./img/symbols.svg#facebook"></use>
+              </svg></a><a href="">
+              <svg class="google-plus">
+                <use xlink:href="./img/symbols.svg#google-plus"></use>
+              </svg></a></div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-bottom_p">She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
+          <div class="footer-bottom_links"><a class="footer-bottom_link" href="#">Privacy Policy</a><a class="footer-bottom_link" href="#">Terms and Conditions</a></div>
+        </div>
+      </div>
+    </footer>
+    <!-- Custom HTML End-->
+    <!-- Loading JS Start-->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/jquery.formstyler/1.7.8/jquery.formstyler.min.js"></script>
+    <!--script(defer src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js")-->
+    <!--script(defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js")-->
+    <!--script(defer src="js/commons.js")-->
+    <script defer src="js/index.js"></script>
+    <!-- Loading JS End-->
+  </body>
+</html>

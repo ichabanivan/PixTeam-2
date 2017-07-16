@@ -1,7 +1,28 @@
-//.container
-//  .choice
-//    select
-//      option(value='', disabled='', selected='1') Choose your option
-//      option(value='1') Best match
-//      option(value='2') Option 2
-//      option(value='3') Option 3
+.choice
+  .choice_left
+    .choice_sort.choice_sort--pl20 Sort By
+    select.choice_select
+      option(value='0').choice_option Choose your option
+      option(value='1' selected).choice_option Best match
+      option(value='2').choice_option Option 2
+      option(value='3').choice_option Option 3
+  .choice_center
+    .choice-first
+      .choice_sort.choice_sort--pl30 Keywords
+      input(placeholder="tablet").choice_keywords
+    .choice-second
+      .choice_sort.choice_sort--pl30 Price
+      input(type="number" placeholder="1").choice_keywords.choice_keywords--price
+      span.choice_offset -
+      input(type="number" placeholder="10").choice_keywords.choice_keywords--price
+    .choice-third
+      input(type="checkbox" id="js-checkbox").choice_check
+      span.choice_text Free Shipping
+  .choice_right
+    span.choice_sort.choice_sort--pl25 Ship to:
+    select.choice_select.choice_select--right
+      option(value='0').choice_option Choose your option
+        option(value='1' selected).choice_option USA
+        option(value='2').choice_option Option 2
+        option(value='3').choice_option Option 3
+
